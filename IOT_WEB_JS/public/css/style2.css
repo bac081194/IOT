@@ -1,0 +1,35 @@
+#actionTable {
+    width: 100%;
+}
+
+#actionTable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* CSS cho phân trang */
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination button {
+    background-color: #e74c3c; /* Màu nền của nút */
+    color: white; /* Màu chữ trên nút */
+    border: none; /* Loại bỏ viền */
+    padding: 5px 5px; /* Kích thước nút */
+    cursor: pointer; /* Biểu tượng con trỏ khi di chuột qua nút */
+    margin: 5px; /* Khoảng cách giữa các nút */
+    border-radius: 5px; /* Góc bo tròn của nút */
+  }
+  
+  .pagination button.active {
+    background-color: #c27b2a; /* Màu nền của nút trang hiện tại */
+  }
+  
+  /* Hiệu ứng hover khi di chuột qua nút */
+  .pagination button:hover {
+    background-color: #ca1f1f; /* Màu nền thay đổi khi di chuột qua */
+  }
+  
+  
